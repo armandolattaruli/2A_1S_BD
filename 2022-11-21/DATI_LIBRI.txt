@@ -1,0 +1,11 @@
+INSERT INTO `autori` (`codice`, `nome`, `cognome`) VALUES
+('01234567890123456789', 'dan', 'brown'), 
+('11234567890123456789', 'agatha', 'christie'), 
+('21234567890123456789', 'dante', 'alighieri')
+;
+
+INSERT INTO `libri` (`codice`, `titolo`, `sottotitolo`, `autore`) VALUES
+("aaaaaaaaaaaaaaaaaaaa", "titolo1", "sottotitolo1", "01234567890123456789"),
+("bbbbbbbbbbbbbbbbbbbb", "titolo2", "sottotitolo2", "11234567890123456789"),
+("cccccccccccccccccccc", "titolo3", "sottotitolo3", "21234567890123456789")
+;
