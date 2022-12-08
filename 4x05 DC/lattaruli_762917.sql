@@ -427,6 +427,8 @@ SELECT nomeAzienda FROM aziende WHERE annoFondazione > 1998;
 SELECT nomeAzienda FROM aziende WHERE (annoFondazione > 1980 && annoFondazione < 1998);
 
 -- query 28
+SELECT idPrivato, cognome, nome, via, citta, email, numeroCivico, eta
+FROM privati;
 
 -- query 29
 SELECT cognome, nome, numeroCivico FROM privati WHERE numeroCivico > 19;
